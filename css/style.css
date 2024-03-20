@@ -18,11 +18,22 @@
     background-color: bisque;
     width: 100%;
     height: 20%;
+    text-align: center;
+    padding: 20px;
+    
+    font-size: xx-large;
+    text-transform: uppercase;
 }
 .lcd{
     background-color: black;
     width: 100%;
     height: 20%;
+    display: flex;
+    font-size: xx-large;
+    color: greenyellow;
+    align-content: center;
+    flex-direction: row-reverse;
+    padding: 15px;
 }
 .keyboard{
     background-color: lightgray;
