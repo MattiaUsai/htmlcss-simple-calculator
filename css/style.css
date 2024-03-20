@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .flex{
     display: flex;
     justify-content: center;
@@ -24,30 +29,49 @@
     width: 100%;
     height: 60%;
     display: flex;
+    padding: 10px;
 }
 .btnumber{
     background-color: aliceblue;
     width: 40px;
     height: 40px;
     flex-basis: auto;
+    border-radius: 10px;
 }
 .btfunction{
     background-color: coral;
     height: 30px;
     width: 40px;
+    border-radius: 10px;
 
 }
 .keyboardnumber{
     background-color: aquamarine;
     width: 80%;
     height: 100%;
+    display: flex;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    
+  
 }
 .keyboardfunction{
     background-color: blue;
     width: 20%;
     height: 100%;
+    display: flex;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
 }
 .row{
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
+}
+
+.btnumber.number0{
+    width: 100px;
 }
