@@ -9,3 +9,45 @@
     height: 400px;
     background-color: gray;
 }
+.mark{
+    background-color: bisque;
+    width: 100%;
+    height: 20%;
+}
+.lcd{
+    background-color: black;
+    width: 100%;
+    height: 20%;
+}
+.keyboard{
+    background-color: aqua;
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+.btnumber{
+    background-color: aliceblue;
+    width: 40px;
+    height: 40px;
+    flex-basis: auto;
+}
+.btfunction{
+    background-color: coral;
+    height: 30px;
+    width: 40px;
+
+}
+.keyboardnumber{
+    background-color: aquamarine;
+    width: 80%;
+    height: 100%;
+}
+.keyboardfunction{
+    background-color: blue;
+    width: 20%;
+    height: 100%;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
